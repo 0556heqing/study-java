@@ -1,4 +1,4 @@
-package com.heqing.java;
+package com.heqing.java.java8;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -27,6 +27,8 @@ ext {
 
 dependencies {
 
+    implementation 'com.google.guava:guava:30.1.1-jre'
+
     implementation group: 'commons-lang', name: 'commons-lang', version: '2.6'
 
     // 阿里Json工具 fastjson
