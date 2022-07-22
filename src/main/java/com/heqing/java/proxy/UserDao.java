@@ -6,6 +6,9 @@ package com.heqing.java.proxy;
  */
 public interface UserDao {
 
+    /**
+     * 保存接口
+     */
     void save();
 
 }

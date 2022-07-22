@@ -10,15 +10,21 @@ import java.lang.reflect.Method;
  */
 public class JdkProxy implements InvocationHandler {
 
-    // 这其实业务实现类对象，用来调用具体的业务方法
+    /**
+     * 这其实业务实现类对象，用来调用具体的业务方法
+     */
     private Object target;
 
-    // 通过构造函数传入目标对象
+    /**
+     * 通过构造函数传入目标对象
+     */
     public JdkProxy(Object target) {
         this.target = target;
     }
 
-    //动态代理实际运行的代理方法
+    /**
+     * 动态代理实际运行的代理方法
+     */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("调用开始处理");
